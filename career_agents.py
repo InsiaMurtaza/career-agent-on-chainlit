@@ -1,6 +1,5 @@
 import os
-from agents import Agent, OpenAIChatCompletionsModel, set_tracing_disabled
-from openai import AsyncOpenAI
+from agents import Agent, OpenAIChatCompletionsModel, AsyncOpenAI, set_tracing_disabled
 from dotenv import load_dotenv
 from function_tools import get_career_roadmap
 
