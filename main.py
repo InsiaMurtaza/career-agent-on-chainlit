@@ -1,6 +1,5 @@
 import os
-from agents import Agent, Runner, OpenAIChatCompletionsModel
-from openai import AsyncOpenAI
+from agents import Agent, Runner, OpenAIChatCompletionsModel, AsyncOpenAI
 import chainlit as cl
 from typing import cast
 from dotenv import load_dotenv
